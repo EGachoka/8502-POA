@@ -5,8 +5,8 @@ import numpy as np
 import joblib
 
 # Load model and scaler
-model = joblib.load("model.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("EGachoka/8502-POA/blob/main/model.pkl")
+scaler = joblib.load("EGachoka/8502-POA/blob/main/scaler.pkl")
 
 st.title("Macroeconomic Forecast App")
 
